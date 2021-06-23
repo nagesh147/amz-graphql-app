@@ -1,0 +1,139 @@
+[{
+    "parentIdentifier": "",
+    "name": "Q-0095",
+    "question": "Is the leave of absence for your own injury or illness?",
+    "dataType": "radio",
+    "dataTypeValue": "Yes,No",
+    "isRequired": true,
+    "id": "a3Y03000000HXrpEAG"
+  },
+  {
+    "parentIdentifier": "Q-0095",
+    "name": "Q-0096",
+    "question": "Is this leave of absence for an injury or illness?",
+    "dataType": "radio",
+    "dataTypeValue": "Injury,Illness",
+    "isRequired": true,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXrqEAG"
+  },
+  {
+    "parentIdentifier": "Q-0095",
+    "name": "Q-0700",
+    "question": "",
+    "dataType": "",
+    "staticMessage": "This option should be selected when you need time off for your own injury or illness. If you need time off for a different reason, please go back and select a different leave of absence reason.",
+    "selectedOption": "No",
+    "id": "a3Y03000000HXrrEAG"
+  },
+  {
+    "parentIdentifier": "Q-0095",
+    "name": "Q-0701",
+    "question": "Is this leave of absence related to the following?  (select all that apply)",
+    "dataType": "picklist",
+    "dataTypeValue": "Surgery,Psychological Or Behavioural Health,Physical",
+    "isRequired": true,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXrsEAG"
+  },
+  {
+    "parentIdentifier": "Q-0701",
+    "name": "Q-0702",
+    "question": "Surgery Type",
+    "dataType": "text",
+    "dataTypeValue": "",
+    "isRequired": true,
+    "selectedOption": "Surgery",
+    "id": "a3Y03000000HXrtEAG"
+  },
+  {
+    "parentIdentifier": "Q-0701",
+    "name": "Q-0705",
+    "question": "Date of Surgery. Please select or enter a date in the format: MM/DD/YYYY.",
+    "dataType": "text",
+    "dataTypeValue": "",
+    "isRequired": true,
+    "selectedOption": "Surgery",
+    "id": "a3Y03000000HXr1EAG"
+  },
+  {
+    "parentIdentifier": "Q-0095",
+    "name": "Q-0146",
+    "question": "Were you (or will you be) hospitalized overnight as a result of this injury or illness?",
+    "dataType": "radio",
+    "dataTypeValue": "Yes,No",
+    "isRequired": true,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXruEAG"
+  },
+  {
+    "parentIdentifier": "Q-0146",
+    "name": "Q-0089",
+    "question": "What date were (or will you be) admitted? Please select or enter a date in the format: MM/DD/YYYY.",
+    "dataType": "text",
+    "dataTypeValue": "",
+    "isRequired": false,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXrVEAW"
+  },
+  {
+    "parentIdentifier": "Q-0146",
+    "name": "Q-0108",
+    "question": "What date were (or will you be) discharged? Please select or enter a date in the format: MM/DD/YYYY.",
+    "dataType": "text",
+    "dataTypeValue": "",
+    "isRequired": false,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXrKEAW"
+  },
+  {
+    "parentIdentifier": "Q-0095",
+    "name": "Q-0107",
+    "question": "Is this leave of absence related to an Illness or Injury incurred during work you were performing for Amazon?",
+    "dataType": "radio",
+    "dataTypeValue": "Yes,No",
+    "isRequired": true,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXs3EAG"
+  },
+  {
+    "parentIdentifier": "Q-0107",
+    "name": "Q-0157",
+    "question": "Have you reported this incident to AmCare/Safety/HR?",
+    "dataType": "radio",
+    "dataTypeValue": "Yes,No",
+    "isRequired": true,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXrKEAW"
+  },
+  {
+    "parentIdentifier": "Q-0157",
+    "name": "Q-0164",
+    "question": "Please provide Worker Comp Case Number, if available",
+    "dataType": "text",
+    "dataTypeValue": "",
+    "isRequired": false,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXrjEAG"
+  },
+  {
+    "parentIdentifier": "Q-0146",
+    "name": "Q-0153",
+    "question": "Do you have a follow up appointment?",
+    "dataType": "radio",
+    "dataTypeValue": "Yes,No",
+    "isRequired": false,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXs2EAG"
+  },
+  {
+    "parentIdentifier": "Q-0153",
+    "name": "Q-0094",
+    "question": "When is your follow up appointment? Please select or enter a date in the format: MM/DD/YYYY.",
+    "dataType": "text",
+    "dataTypeValue": "Yes,No",
+    "isRequired": false,
+    "selectedOption": "Yes",
+    "id": "a3Y03000000HXriEAG"
+  }
+  ]
